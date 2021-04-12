@@ -1,19 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>js</title>
-</head>
-<body>
-    <h1>Javascript não performático</h1>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>format_datatime</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    
 
-  <ul id="data"></ul>
+        <div class="card-content" >
+          <div class="media">
+            <div class="media-left" >
+              <figure class="image" >
+                <img src="./img/icon" alt="Placeholder image">
+               </figure>
+            </div>
+            <div class="media-content">
+              <p class="title is-4">Format data-time</p>
+              <p class="subtitle is-6">            <a href="https://www.linkedin.com/in/nat%C3%A1lia/" target="_blank" >Meu linkedin</a></p>
+            </div>
+          </div>
+      
+          <div class="content">
+            <p class="p-title">Formatar data time em Mês, Ano, Hora, Minuto, Segundo e Milissegundo com Javascript. Isso tudo em tempo real!</p> 
+            <h6>Observe que o número de vezes que o botão "formatar" foi clicado, aparecerá no "title". </h6>
+           
+            <div class="box">
+                <ul id="data"></ul>
+                <button class="button is-success is-light" id="clickbutton">Formatar</button>
+            </div>
+          </div>
+        </div>
+     
+ 
+      
 
-    <button id="clickbutton">Clique aqui</button>
 
-    <script src="timestamp.js"></script>
-    <script src="script.js"></script>
-</body>
+      <script src="timestamp.js"></script>
+      <script src="script.js"></script>
+  </body>
 </html>

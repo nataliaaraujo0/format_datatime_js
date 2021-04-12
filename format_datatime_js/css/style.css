@@ -1,0 +1,26 @@
+.card-content{
+margin-top: 50px;
+}
+
+.p-title{
+    margin-top: 20px;
+}
+
+h6{
+    margin-top: 5px;
+}
+.image{
+    width:70px; height:70px; border-radius:700px;
+  
+}
+
+.box{
+    width: 60%; height: auto; margin-left: 20%; background-color: rgb(94, 125, 226); margin-top: 40px;
+}
+
+ul{
+    color: rgb(250, 250, 250);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}

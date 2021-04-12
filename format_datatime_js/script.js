@@ -24,6 +24,12 @@ function render(){
     });
 
     ul.innerHTML = lis;
+
+    document.title=clickArray.length;
+    
+   
+
+    
 } 
 
 

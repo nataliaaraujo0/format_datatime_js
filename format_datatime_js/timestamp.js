@@ -25,7 +25,7 @@ function getNemTimestamp() {
     result += leftPad(now.getMonth() +1);
         result += '/';
     result += now.getFullYear();
-        result += '';
+        result += ' ';
     result += leftPad(now.getHours());
         result += ':';
     result += leftPad(now.getMinutes());
